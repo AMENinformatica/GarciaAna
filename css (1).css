@@ -1,0 +1,122 @@
+/* Define el color de texto y el tamaño de la fuente para los
+elementos h1 */
+h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+color:rgb(99, 8, 66);
+text-align: center;
+}
+
+h2 {
+    font-family:'Courier New', Courier, monospace;
+    color:rgb(63, 12, 12);
+}
+/* Define el color de fuente y de fondo de los parrafos*/
+p {
+color:rgb(0, 0, 0); /* Regla 1 */
+background-color:rgb(223, 160, 181);
+}
+
+.grande{
+    font-size:xx-large;
+}
+/* Define el color de fondo del cuerpo*/
+body{
+background-color:rgb(255, 218, 243);
+}
+/* Define una clase centrado para centrar elementos */
+.bloque_centrado{
+display: flex;
+justify-content: center;
+}
+/*Define una clase centrado para centrar texto*/
+.texto_centrado{
+text-align:center;
+}
+/* Define una clase destacado */
+.destacado {
+color:plum; /* Regla 2 */
+}
+/* Define una clase resaltado */
+.resaltado{
+background-color:lightpink;
+}
+
+
+.menu {
+    background-color: #b97dc5; /* Cambio de color de fondo */
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.2); /* Agregamos una sombra */
+}
+
+
+.menu ul li {
+    display: inline-block; /* Mostrar los elementos de la lista en línea */
+    margin-right: auto;
+}
+
+.menu ul li a {
+    display: block; /* Mostrar los enlaces como bloques para ocupar todo el espacio disponible */
+    color: white; /* Color del texto */
+    padding: 15px 25px; /* Aumento del relleno vertical y horizontal */
+    text-decoration: none; /* Eliminación del subrayado del enlace */
+    transition: background-color 0.3s; /* Agregamos una transición suave */
+    font-size: x-large;
+    font-weight: bold; /* Texto en negrita */
+}
+
+.menu ul li a:hover {
+    background-color: #e6bddb; /* Cambio de color de fondo al pasar el ratón */
+}
+
+.menu ul li a.active {
+    background-color: #f190e9; /* Color de fondo para el enlace activo */
+}
+
+.logo {
+    font-size: 1.5em;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+.contact-form {
+    max-width: 600px; /* Ancho máximo del formulario */
+    margin: 20px auto; /* Margen superior e inferior automático y 20px de margen a los lados */
+    padding: 20px; /* Añadido un poco de relleno */
+    background-color: #f9f9f9; /* Color de fondo del formulario */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agregamos una sombra */
+    border-radius: 5px; /* Borde redondeado */
+}
+
+.contact-form label {
+    display: block; /* Mostrar las etiquetas en bloques */
+    margin-bottom: 8px; /* Margen inferior */
+    font-weight: bold; /* Texto en negrita */
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Añadido de relleno */
+    margin-bottom: 10px; /* Margen inferior */
+    border: 1px solid #ddd; /* Borde */
+    border-radius: 4px; /* Borde redondeado */
+    box-sizing: border-box; /* Inclusión del relleno y el borde en el ancho total */
+}
+
+.contact-form button {
+    display: inline-block; /* Mostrar el botón en línea */
+    padding: 10px 20px; /* Añadido de relleno */
+    background-color: #2980b9; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Borde redondeado */
+    cursor: pointer; /* Cursor apuntador */
+    transition: background-color 0.3s; /* Agregamos una transición suave */
+}
+
+.contact-form button:hover {
+    background-color: #3498db; /* Cambio de color de fondo al pasar el ratón */
+}
+
